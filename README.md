@@ -5,7 +5,7 @@ Find if cities are connected!!
 
 Two cities are considered to be connected if there’s a series of routes/roads that can be traveled from one city to another.
 
-List of roads is available in a file. The file contains a list of city pairs (one pair per line, comma separeated), whih indicates there is a road between those cities. A sample list of routes are available in a project file `city.txt` located under the `resource` directory. 
+List of roads is available in a file. The file contains a list of city pairs (one pair per line, comma separated), which indicates there is a road between those cities. A sample list of routes are available in a project file `city.txt` located under the `resource` directory. 
 
 This application responds with 'yes' if city1 is connected to city2, 'no' if city1 is not connected to city2. Any unexpected input results in a 'no' response.
 
@@ -32,7 +32,7 @@ Example `Boston` and `Albany` _are not_ connected:
 
 Example `Boston` and `New york` _are_ connected:
 
-[http://localhost:8080/connected?origin=Boston&destination=New york](http://localhost:8080/connected?origin=Boston&destination=New york) (result **yes**)
+[http://localhost:8080/connected?origin=Boston&destination=New%20york](http://localhost:8080/connected?origin=Boston&destination=New%20york) (result **yes**)
 
 
 ### Provide your own roadmap file

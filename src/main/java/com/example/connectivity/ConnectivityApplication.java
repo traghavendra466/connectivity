@@ -48,6 +48,6 @@ public class ConnectivityApplication {
 	@ExceptionHandler(NullPointerException.class)
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     public String invalidCityError() {
-        return "Either origin or destination city name is invalid";
+        return "no";
     }
 }
